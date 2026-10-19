@@ -15,6 +15,7 @@ window.SITE = {
 
 הפרויקט מתאפיין בחשיבה אדריכלית עכשווית עם דגש על רמת גימור גבוהה, ומציע חווית מגורים אלגנטית ומאוזנת למשפחות ולמשפרי דיור המחפשים איכות חיים בלתי מתפשרת במיקום האטרקטיבי ביותר ברכס.`,
   imgs: ["images/building-1.jpg"],
+  video: {"src": "images/building.mp4", "poster": "images/video-poster.jpg"},
   types: {
     A: {"rooms": "3", "size": "70", "bal": "15", "label": "", "img": "images/plan-A.jpg"},
     B: {"rooms": "4", "size": "100", "bal": "14", "label": "", "img": "images/plan-B.jpg"},
