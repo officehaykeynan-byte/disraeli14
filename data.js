@@ -6,6 +6,7 @@ window.SITE = {
   wa: "972547000791",            // מספר וואטסאפ בפורמט בינלאומי, בלי + ובלי מקפים
   addr: "דישראלי 14 חיפה",        // משמש לכפתורי הניווט
   link: "",                    // אפשר להשאיר ריק: האתר ישתף את הכתובת שלו
+  showStatus: false,   // true = להציג בטבלאות "פנויה / נמכרה"
   pills: false,               // true = להציג בראש הדף את באנר "דירות פנויות"
   about: `## דישראלי 14 – אינטימיות אדריכלית בלב אחוזה
 
@@ -23,13 +24,13 @@ window.SITE = {
     D: {"rooms": "6", "size": "160", "bal": "92", "label": "פנטהאוז", "img": "images/plan-D.jpg"}
   },
   apts: [
-    {"num": "5", "floor": "1", "t": "A", "price": "2350000", "extras": "", "sold": false, "img": "", "dir": "דרום"},
-    {"num": "6", "floor": "2", "t": "B", "price": "3200000", "extras": "", "sold": false, "img": "", "dir": "צפון, דרום, מערב"},
-    {"num": "7", "floor": "2", "t": "C", "price": "3800000", "extras": "", "sold": false, "img": "", "dir": "צפון, דרום, מזרח"},
-    {"num": "8", "floor": "3", "t": "B", "price": "3290000", "extras": "", "sold": false, "img": "", "dir": "צפון, דרום, מערב"},
-    {"num": "9", "floor": "3", "t": "C", "price": "3900000", "extras": "", "sold": false, "img": "", "dir": "צפון, דרום, מזרח"},
-    {"num": "10", "floor": "4", "t": "B", "price": "3400000", "extras": "", "sold": false, "img": "", "dir": "צפון, דרום, מערב"},
-    {"num": "12", "floor": "5", "t": "D", "price": "6700000", "extras": "", "sold": false, "img": "", "dir": "4 כיוונים"}
+    {"num": "5", "floor": "1", "t": "A", "price": "", "extras": "", "sold": false, "img": "", "dir": "דרום"},
+    {"num": "6", "floor": "2", "t": "B", "price": "", "extras": "", "sold": false, "img": "", "dir": "צפון, דרום, מערב"},
+    {"num": "7", "floor": "2", "t": "C", "price": "", "extras": "", "sold": false, "img": "", "dir": "צפון, דרום, מזרח"},
+    {"num": "8", "floor": "3", "t": "B", "price": "", "extras": "", "sold": false, "img": "", "dir": "צפון, דרום, מערב"},
+    {"num": "9", "floor": "3", "t": "C", "price": "", "extras": "", "sold": false, "img": "", "dir": "צפון, דרום, מזרח"},
+    {"num": "10", "floor": "4", "t": "B", "price": "", "extras": "", "sold": false, "img": "", "dir": "צפון, דרום, מערב"},
+    {"num": "12", "floor": "5", "t": "D", "price": "", "extras": "", "sold": false, "img": "", "dir": "4 כיוונים"}
   ],
   // בשני המפרטים: שורה שמתחילה ב-## היא כותרת משנה, ושאר השורות הן פריטים
   specB: `## חוויית מגורים שלמה – מפרט טכני ואיכות בנייה
