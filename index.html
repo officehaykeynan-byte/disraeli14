@@ -1,5 +1,26 @@
 <!doctype html><html lang="he" dir="rtl" data-theme="light" style="color-scheme: light;"><head>
-<meta charset="utf-8">
+<meta charset="utf-8">\n<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4L41K5638B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-4L41K5638B');
+  document.addEventListener('click', function (e) {
+    var el = e.target.closest && e.target.closest('a,button,summary');
+    if (!el || typeof gtag !== 'function') return;
+    var h = el.getAttribute('href') || '';
+    if (h.indexOf('wa.me/?text=') > -1) gtag('event', 'share_whatsapp');
+    else if (h.indexOf('wa.me/') > -1) gtag('event', 'generate_lead', {method: 'whatsapp'});
+    else if (h.indexOf('tel:') === 0) gtag('event', 'generate_lead', {method: 'phone'});
+    else if (h.indexOf('google.com/maps') > -1) gtag('event', 'navigate', {method: 'google_maps'});
+    else if (h.indexOf('waze.com') > -1) gtag('event', 'navigate', {method: 'waze'});
+    else if (el.id === 'vp') gtag('event', 'video_play');
+    else if (el.classList.contains('gv')) gtag('event', 'view_plan');
+    else if (el.tagName === 'SUMMARY') gtag('event', 'open_spec');
+  }, true);
+</script>
+
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="דירות למכירה בדישראלי 14, חיפה - בניין חדש בן 12 דירות, בסמוך למרכז חורב">
 <meta property="og:type" content="website">
